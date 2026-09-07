@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61", "torch"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blast3r"
+version = "0.1.0"
+description = "BLASt3R: bundle-adjusted large-scale 3D reconstruction and SLAM"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asmk @ git+https://github.com/lojzezust/asmk.git",
+    "evo",
+    "gradio",
+    "huggingface-hub",
+    "numpy",
+    "opencv-python",
+    "pandas",
+    "pillow",
+    "roma",
+    "safetensors",
+    "scipy",
+    "tabulate",
+    "timm",
+    "torch",
+    "torchvision",
+    "torch-scatter",
+    "tqdm",
+    "viser>=1.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

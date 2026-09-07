@@ -1,0 +1,187 @@
+BLASt3R Notice of acknowledgements:
+
+Portions of the Materials may utilize the following subcomponents or dependencies with separate copyright notices and license terms, the use of which is hereby acknowledged:
+
+------------------------------------------------------------------------
+PART 1: SEE NOTICES BELOW WITH RESPECT TO SOFTWARE FILES:
+------------------------------------------------------------------------
+
+Portions of the Materials incorporate software identified in this PART 1, which is distributed with the Materials in either unmodified or modified form. Any software distributed in unmodified form remains subject to the terms and conditions set forth below. Any software distributed in modified form is subject to the license applicable to the Materials; provided, however, that any restriction contained in the terms governing such software that imposes obligations or limitations beyond those set forth in the license to the Materials shall also apply to the use of such software.
+
+(1.A) This software:
+    - timm/models/vision_transformer.py
+that is available here:
+    https://github.com/huggingface/pytorch-image-models
+under these conditions (Apache License 2.0):
+    https://github.com/huggingface/pytorch-image-models/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/models/blocks.py
+    - src/blast3r/models/layer_scale.py
+
+(1.B) This software:
+    - palm_pytorch/palm_pytorch.py
+that is available here:
+    https://github.com/lucidrains/PaLM-pytorch
+under these conditions (MIT License):
+    https://github.com/lucidrains/PaLM-pytorch/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/models/blocks.py
+
+(1.C) This software:
+    - util/pos_embed.py
+that is available here:
+    https://github.com/facebookresearch/mae
+under these conditions (Attribution-NonCommercial 4.0 International):
+    https://github.com/facebookresearch/mae/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/models/pos_embed.py
+
+(1.D) This software:
+    - pose_diffusion/util/metric.py
+that is available here:
+    https://github.com/facebookresearch/PoseDiffusion
+under these conditions (Attribution-NonCommercial 4.0 International):
+    https://github.com/facebookresearch/PoseDiffusion/blob/main/LICENSE.txt
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/eval/metrics/relpose.py
+
+(1.E) This software:
+    - src/utils/eval_traj.py
+    - src/utils/datasets.py
+that is available here:
+    https://github.com/zhangganlin/GlORIE-SLAM
+under these conditions (Apache License 2.0):
+    https://github.com/zhangganlin/GlORIE-SLAM/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/eval/metrics/slam.py
+    - src/blast3r/eval/datasets.py
+
+(1.F) This software:
+    - how/utils/whitening.py
+that is available here:
+    https://github.com/gtolias/how
+under these conditions (MIT License):
+    https://github.com/gtolias/how/blob/master/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/retrieval/whitener.py
+
+(1.G) This software:
+    - scripts/python/read_write_model.py
+that is available here:
+    https://github.com/colmap/colmap
+under these conditions (New BSD License):
+    https://github.com/colmap/colmap/blob/main/LICENSE.txt
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/eval/colmap.py
+
+(1.H) This software:
+    - dinov2/layers/layer_scale.py
+that is available here:
+    https://github.com/facebookresearch/dinov2
+under these conditions (Apache License 2.0):
+    https://github.com/facebookresearch/dinov2/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    - src/blast3r/models/layer_scale.py
+
+---------------------------------------------------
+PART 2: SEE NOTICES BELOW WITH RESPECT TO DATASETS:
+---------------------------------------------------
+
+The datasets listed in this PART 2 were used to train checkpoints distributed with the Materials. Such datasets are not distributed with the Materials and are available under the terms set forth below. The checkpoints consist solely of abstract statistical information resulting from training and do not constitute a translation, alteration, arrangement, adaptation, reproduction, or other form of derivative work of any dataset used in training. Except as provided in PART 3, use of the checkpoints distributed with the Materials is subject to the license to the Materials. To the extent applicable to any checkpoint, any restriction contained in the terms governing a dataset used in training that imposes obligations or limitations beyond those set forth in the license to the Materials shall also apply to the use of such checkpoint ("Supplemental Restrictions").
+
+Summary:
+See (2.A) below: CO3Dv2 (https://github.com/facebookresearch/co3d);
+See (2.B) below: ScanNet++ (https://kaldir.vc.in.tum.de/scannetpp/);
+See (2.C) below: BlendedMVS (https://github.com/YoYo000/BlendedMVS);
+See (2.D) below: Hypersim (https://github.com/apple/ml-hypersim)
+See (2.E) below: WildRGB-D (https://github.com/wildrgbd/wildrgbd)
+See (2.F) below: TartanAir (https://theairlab.org/tartanair-dataset/)
+See (2.G) below: UnrealStereo4K (https://github.com/fabiotosi92/SMD-Nets?tab=readme-ov-file#unrealstereo4k)
+See (2.H) below: Virtual KITTI 2 (https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)
+See (2.I) below: DL3DV (https://dl3dv-10k.github.io/DL3DV-10K/)
+See (2.J) below: Niantic Map Free Relocalization Dataset (https://www.nianticspatial.com/en/research/map-free/dataset)
+See (2.K) below: Infinigen (https://github.com/princeton-vl/infinigen/blob/main/docs/PreGeneratedData.md)
+See (2.L) below: MegaDepth (https://www.cs.cornell.edu/projects/megadepth/)
+See (2.M) below: MegaScenes (https://megascenes.github.io/)
+See (2.N) below: ARKitScenes (https://github.com/apple/ARKitScenes)
+See (2.O) below: Habitat-Sim HM3D (https://aihabitat.org/datasets/hm3d/)
+See (2.P) below: ScanNet (http://www.scan-net.org/)
+See (2.Q) below: Replica (https://github.com/facebookresearch/Replica-Dataset)
+See (2.R) below: ReplicaCAD (https://aihabitat.org/datasets/replica_cad/)
+See (2.S) below: Photogrammetry (NAVER internal synthetic dataset)
+
+
+(2.A) CO3Dv2, is made available under the following license (CC BY NC 4.0):
+https://github.com/facebookresearch/co3d/blob/main/LICENSE
+
+(2.B) ScanNet++, is made available under the following license (ScanNet++ Terms of Use):
+https://kaldir.vc.in.tum.de/scannetpp/static/scannetpp-terms-of-use.pdf
+
+(2.C) BlendedMVS, is made available under the following license (CC BY 4.0):
+https://github.com/YoYo000/BlendedMVS
+
+(2.D) Hypersim, is made available under the following license (CC BY SA 3.0):
+https://github.com/apple/ml-hypersim/?tab=readme-ov-file#the-hypersim-dataset
+
+(2.E) WildRGB-D, is made available under the following license (MIT):
+https://github.com/wildrgbd/wildrgbd/blob/main/LICENSE
+
+(2.F) TartanAir, is made available under the following license (CC BY 4.0):
+https://theairlab.org/tartanair-dataset/
+
+(2.G) UnrealStereo4K, is made available under the following license (MIT):
+https://github.com/fabiotosi92/SMD-Nets/blob/main/LICENSE
+
+(2.H) Virtual KITTI 2, is made available under the following license (CC BY NC SA 3.0):
+https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/
+
+(2.I) DL3DV, is made available under the following license (CC BY NC 4.0):
+https://github.com/DL3DV-10K/Dataset/blob/main/License.md
+
+(2.J) Niantic Map Free Relocalization Dataset, is made available under the following license (non-commercial purposes):
+https://www.nianticspatial.com/en/research/map-free/dataset
+
+(2.K) Infinigen, is made available under the following license (BSD 3-Clause):
+https://github.com/princeton-vl/infinigen/blob/main/LICENSE
+
+(2.L) MegaDepth, is made available under the following license (CC BY 4.0):
+https://www.cs.cornell.edu/projects/megadepth/
+The original images that the MegaDepth dataset was derived from come with their own licenses.
+
+(2.M) MegaScenes, is made available under the following license (CC BY 4.0):
+https://github.com/MegaScenes/dataset/blob/main/README.md#license
+The original Wikimedia Commons images that the MegaScenes dataset was derived from come with their own licenses.
+
+(2.N) ARKitScenes, is made available under the following license (Apple ARKitScenes License, non-commercial purposes):
+https://github.com/apple/ARKitScenes/blob/main/LICENSE
+
+(2.O) Habitat-Sim HM3D, is made available under the following license (Matterport End User License Agreement for Academic Use of Model Data):
+https://matterport.com/legal/matterport-end-user-license-agreement-academic-use-model-data
+
+(2.P) ScanNet, is made available under the following license (ScanNet Terms of Use):
+https://kaldir.vc.in.tum.de/scannet/ScanNet_TOS.pdf
+
+(2.Q) Replica, is made available under the following license (Replica Dataset Research Terms):
+https://github.com/facebookresearch/Replica-Dataset/blob/main/LICENSE
+
+(2.R) ReplicaCAD habitat-sim, is made available under the following license (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+(2.S) Photogrammetry, a NAVER internal synthetic dataset that is not publicly released, is made available under the following license (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------------------
+PART 3: SEE NOTICES BELOW WITH RESPECT TO PRETRAINED WEIGHTS:
+--------------------------------------------------------------
+
+The checkpoints listed in this PART 3 were used to initialize the training of checkpoints distributed with the Materials. The resulting checkpoints distributed with the Materials are derivative works of the original weights, and any use of such checkpoints is subject, as applicable, to the terms and conditions of the corresponding license identified in this PART 3. To the extent the distributed checkpoints incorporate original modifications, additions, or other contributions of NAVER ("Contributions"), such Contributions may also be made available subject to supplemental terms and conditions ("Supplemental Terms"). The Supplemental Terms, which apply solely to the Contributions, incorporate obligations, conditions, attribution requirements, notices, compliance requirements, or other terms arising under the license to the Materials and under the Supplemental Restrictions governing any dataset listed in PART 2 that was used in training checkpoints listed in this PART 3.
+
+
+(3.A) The monocular depth checkpoint distributed with the Materials (naver/blast3r-depth) was initialized from DINOv3 pretrained weights:
+    https://github.com/facebookresearch/dinov3
+made available by Meta Platforms, Inc. under the DINOv3 License:
+    https://github.com/facebookresearch/dinov3/blob/main/LICENSE.md
+As required by Section 1.b of that license, a copy of the DINOv3 License is distributed with the Materials at:
+    - docs/licenses/DINOv3_LICENSE.md
+Use of the naver/blast3r-depth checkpoint is subject to the DINOv3 License, including its restrictions on use for military, warfare, nuclear, espionage or weapons-related purposes and on activities subject to sanctions and applicable export and import controls, and any Supplemental Terms with respect to Contributions.
+

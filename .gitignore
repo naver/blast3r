@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+
+# Compiled CUDA/C++ extensions
+*.so
+*.o
+
+# Weights and inference outputs
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+outputs/
+checkpoints/
+
+# Evaluation artifacts
+*.pkl
+*.csv
+
+# Notebooks (not part of the release)
+*.ipynb
+.ipynb_checkpoints/
+
+# Editors / local
+.vscode/
+.idea/
+.DS_Store
+
+# Local development files (not part of the release)
+dev/
+CLAUDE.md
